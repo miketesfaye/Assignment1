@@ -1,1 +1,77 @@
+a)
+
+Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 826 bytes | 137.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/miketesfaye/Assignment1.git
+   3d373c9..a84a6d4  master -> master
+
+b)
+
+5 commits so far, git log
+
+c)
+
+Jan 10, 2019.
+git log -p .gitignore
+
+d)
+
+Branches allow you to look through and go back to earlier commits.
+Branches allow you to run different test commits without altering
+your master branch. 
+
+e) 
+
+git log shows the number of commits made, who made them, the date and
+the comment.
+git status displays paths that have differences between the index file and the
+current HEAD commit, paths that have differences between the working tree and
+the index file, and paths in thew orking tree that are not tracked by Git
+
+f)
+
+
+git log --follow -- Weapon.h
+
+g)
+
+git log --all --grep='file'
+
+h)
+
+ i. derived classes that will share all of the data and
+ functionality found in a base class.
+ The derived class will inherit all of the base class features.
+
+ ii. polymorphism means that a call to a member function will
+ cause a different function to be executed depending on the
+ type of object that invokes the function.
+
+ iii. Encapsulation is binding together the data and the functions
+ that manipulates them. 
+
+i)
  
+Integration management workflow involves each developer having
+their own repositories they push and pull from and leave the
+integration manager the problem of trying to merge their repositories.
+
+the Dictator and Lieutenants workflow involves developers only pulling
+from a central repository and then the lieutenants will figure out how
+to merge the work of the developers. Afterwards, the dictator will try 
+to merge the work of the lieutenants and only then push it to the central
+repository.
+
+j) 
+
+100 developers would benefit more from the dictator and lieutenants 
+workflow because it is more well orgnaized. The centralized workflow
+would be chaotic with 100 developers allowed to push their commits to it
+because each developer would be responsibile for proper integration with
+the commits of every other developer. The dictator and lieutenants workflow
+at least ensures the integeration process will be seamless once a push is made
