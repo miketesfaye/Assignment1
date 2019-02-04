@@ -75,3 +75,9 @@ would be chaotic with 100 developers allowed to push their commits to it
 because each developer would be responsibile for proper integration with
 the commits of every other developer. The dictator and lieutenants workflow
 at least ensures the integeration process will be seamless once a push is made
+
+RoleGame OOP principles
+
+1. It is using polymorphism because the virtual function "hit" is being
+used through multiple classes derived from the base class
+
